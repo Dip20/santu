@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&family=Ubuntu:wght@300&display=swap');
+
+/*
+    font-family: 'The Nautigal', cursive;
+
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+.brand_name{
+    font-family: 'The Nautigal', cursive!important;
+    font-size: 52px!important;
+    font-weight: 400;
+}
+
+.quotes{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 3.1rem;
+}
+
+/* custom css for scrool bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 25px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
